@@ -1,7 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Tarea 1</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tarea 1 "Antes de REACT"</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Tarea 1:"Antes de REACT"</h1>
+            <nav>
+                <ul>
+                    <li><a href="#tecnología">Tecnologías aplicadas</a></li>
+                    <li><a href="#repositorio">Repositorio GitHub</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article id="tecnología">
+                <h2>Tecnologías aplicadas</h2>
+                <p>Esta <mark>Tarea 1-Antes de REACT</mark> fue desarrollada utilizando
+                <strong>lenguaje de marcado de hipertexto</strong> y
+                <em>hojas de estilo en cascada</em>.
+                </p>
+                <h3>Itinerario</h3>
+                <ol>
+                    <li>Uso de HTML5</li>
+                    <li>Inserción de archivo CSS3</li>
+                    <li>Edición con JavaScript</li>
+                </ol>
+                <img src="assets/image.jpg" alt="Imagen de una hoja de cuaderno con renglones y un check" width="100" height="100">
+            </article>
+            <article id="repositorio">
+                <h4>Repositorio GitHub</h4>
+                <p>Puedes encontrar el código fuente de este proyecto en el siguiente repositorio:</p>
+                <p><a href="https://github.com/NDanielBarrera/Tarea-1.git" 
+                    target="_blank" rel="noopener noreferrer">https://github.com/NDanielBarrera/Tarea-1.git</a></p>
+            </article>
+            <section id="contacto">
+                <h2>Formulario de Contacto</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    
+                    <br></br>   
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email">
+                    
+                    <br></br>
+                    
+                    <select>
+                        <option value="consulta">Consulta</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="soporte">Soporte</option>
+                        <br></br>
+                        <label for="mensaje">Mensaje:</label>
+                        <input type="text" id="mensaje" name="mensaje">
+                    </select>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+
+        </main>
+        <footer>
+            <small>Néstor Daniel Barrera - 2026</small>
+        </footer>
+    </body>
+</html>
