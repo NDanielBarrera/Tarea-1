@@ -1,0 +1,70 @@
+:root {
+    --color-principal: #1e293b;
+    --color-secundario: #3b82f6;
+    --fuente-base: 'Arial', sans-serif;
+}
+body {
+    background-color: #f8fafc(--color-principal);
+    color: var(--color-secundario);
+    font-family: var(--fuente-base);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: var(--color-secundario);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: var(--color-secundario);
+}
+img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    max-width: 400px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+form input, 
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: var(--color-secundario);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: var(--color-principal);
+}
