@@ -23,7 +23,7 @@ Este proyecto corresponde a la primera entrega práctica del curso, enfocada en 
 Necesitas tener instalado un navegador web moderno (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.) y opcionalmente [Git](https://git-scm.com/) en tu equipo.
 
 ### 1. Clonar el repositorio
-Abre tu terminal o consola de comandos y ejecuta el siguiente comando:
+Abre tu terminal o consola de comandos y ejecuta el siguiente comando:                           
 git clone "https://github.com/NDanielBarrera/Tarea-1.git"
 
 ### 📸 Capturas de Pantalla
