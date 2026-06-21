@@ -31,8 +31,8 @@ git clone [https://github.com/NDanielBarrera/Tarea-1.git](https://github.com/NDa
 
 Así se ve el proyecto finalizado con los estilos aplicados: 
 Imágenes: 
-assets/captura_pantalla1.png
-assets/captura_pantalla2.png
+![Captura 1](assets/captura_pantalla1.png)
+![Captura 2](assets/captura_pantalla2.png)
 
 ## 🗃️ Bibliografía y Fuentes Citadas
 * **Estructura HTML:** Documentación oficial de [MDN Web Docs - HTML Semántico](https://developer.mozilla.org/es/docs/Glossary/Semantics#html_semantics).
