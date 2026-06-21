@@ -30,8 +30,9 @@ git clone https://github.com/NDanielBarrera/Tarea-1.git
 ### 📸 Capturas de Pantalla
 
 Así se ve el proyecto finalizado con los estilos aplicados: 
-Imágenes: 
+Captura 1:
 ![Captura 1](assets/captura_pantalla1.png)
+Captura 2:
 ![Captura 2](assets/captura_pantalla2.png)
 
 ## 🗃️ Bibliografía y Fuentes Citadas
